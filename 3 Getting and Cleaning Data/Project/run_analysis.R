@@ -43,7 +43,7 @@ colnames(data_all)<-gsub("Mag", "Magnitude", colnames(data_all))
 colnames(data_all)<-gsub("BodyBody", "Body", colnames(data_all))
 
 
-# Step 4
+# Step 5
 # From the data set in step 4, creates a second, independent tidy data set 
 # with the average of each variable for each activity and each subject.
 
